@@ -1,7 +1,5 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import Table from 'react-bootstrap/Table'
-import 'bootstrap/dist/css/bootstrap.css';
 import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
@@ -13,23 +11,7 @@ const IndexPage = () => (
     <h1></h1>
     <p>Welcome to my profile</p>
     <p>Please have a look to know more about my job profile.</p>
-     <h2>Black/Dark Table</h2>           
-  <Table stripped bordered hover variant="dark">
-    <thead>
-      <tr>
-        <th>Institution Name</th>
-        <th>Grade</th>
-        <th>Percentage</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>C.V. Raman College of Engineering</td>
-        <td>B.Tech, Computer Science and Engineering</td>
-        <td>7.25</td>
-      </tr>
-    </tbody>
-  </Table>
+    <h1>I am a Software Developer</h1>
     <p>
       <Link to="/page-2/">Go to page 2</Link> <br />
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br />
