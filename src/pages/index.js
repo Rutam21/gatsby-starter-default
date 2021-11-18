@@ -1,5 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import Table from 'react-bootstrap/Table'
+import 'bootstrap/dist/css/bootstrap.css';
 import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
