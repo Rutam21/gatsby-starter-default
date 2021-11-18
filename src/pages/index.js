@@ -10,7 +10,7 @@ const IndexPage = () => (
     <Seo title="Home" />
     <h1></h1>
     <p>Welcome to my profile</p>
-    <p>Please have a look to knowmore about my job profile.</p>
+    <p>Please have a look to know more about my job profile.</p>
     <p>
       <Link to="/page-2/">Go to page 2</Link> <br />
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br />
